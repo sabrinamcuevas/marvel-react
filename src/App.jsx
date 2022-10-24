@@ -8,6 +8,7 @@ import CharacterDetail from './pages/CharacterDetail';
 import SerieDetail from './pages/SerieDetail';
 import Navbar from './components/Navbar';
 import NotFound from './components/NotFound';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   )
 }
